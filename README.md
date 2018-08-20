@@ -119,12 +119,12 @@ Verify total of 29 images (8 images were added)
 1. Click Create Recursive Script button
 1. When prompted select the tests\content\entity\light\point\create folder
    Verify testRecursive.js script has been created in the tests\content\entity\light\point\create folder
-   Verify this file is the same as the file **testRecursive.js1** in the hifi_autotester_tests folder
+   Verify this file is the same as the file **testRecursive1.js** in the hifi_autotester_tests folder
 
 1. Click Create Recursive Script button
 1. When prompted select the tests\content\entity\light folder
    Verify testRecursive.js script has been created in the tests\content\entity\light folder
-   Verify this file is the same as the file **testRecursive.js2** in the hifi_autotester_tests folder
+   Verify this file is the same as the file **testRecursive2.js** in the hifi_autotester_tests folder
    
 1. Change directory back up to the tests root folder
 1. `dir /s /w testRecursive.js | find "File(s)"`
@@ -140,12 +140,18 @@ Verify total of 29 images (8 images were added)
 1. `dir /s /w testRecursive.js | find "File(s)"`
    Verify total of 15 files
    Verify testRecursive.js script has been created in the tests folder
-   Verify this file is the same as the file **testRecursive.js3** in the hifi_autotester_tests folder
+   Verify this file is the same as the file **testRecursive3.js** in the hifi_autotester_tests folder
    
-3. Click Create all Recursive Scripts button
-4. When prompted, click Cancel
+1. Click Create all Recursive Scripts button
+1. When prompted, click Cancel
    Verify no error messages
 **Evaluate**
 1. Create an empty folder for snapshots
+1. Run Interface
+1. Select this folder for snapshots (Settings->General)
+2. Enter your local sandbox (so you can create entities)
+3. Go to an empty area
+4. Run the `tests\testRecursive.js` script (created in the previous step)
+   Verify 29 images have been created in the snapshots folder
 	8.	TestRail
 	9.	Windows		
