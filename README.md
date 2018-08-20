@@ -147,21 +147,14 @@ Verify total of 29 images (8 images were added)
 1. When prompted, click Cancel
    Verify no error messages
 **Evaluate**
-1. Create an empty folder for snapshots
-1. Run Interface
-1. Select the created folder for snapshots (Settings->General)
-2. Enter your local sandbox (so you can create entities)
-3. Go to an empty area
-4. Run the `tests\testRecursive.js` script (created in the previous step)
-   Verify 29 images have been created in the snapshots folder
-1. Close interface
-2. Select the Evaluate tab in auto-tester
+1. Select the Evaluate tab in auto-tester
 3. Verify Interactive Mode check-box is selected (this is the default)
 4. Click Evaluate Test
 5. When prompted for test images folder, Click Cancel
    Verify no error messages
    
-1.  Click Evaluate Test
-5. When prompted for test images folder, select the snapshots folder 
+1. Click Evaluate Test
+2. When prompted for test images folder, select hifi_autotester_tests/testEvaluationImages
+   Verify "All images are asexpected message
 **TestRail**
 **Windows**
