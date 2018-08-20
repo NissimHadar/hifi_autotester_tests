@@ -10,14 +10,15 @@ This is a repository of tests and various files for the auto-tester.
 	
 1. Run the auto-tester executable auto-tester.exe
 2. Select Help->About from the menu
-   Verify built on Aug 18 2018, 15:42:27
+   Verify built on Aug 20 2018, 10:44:44
    
 1. Click Close
    Verify auto-tester closes cleanly
-		
+   
+1. Run the auto-tester executable auto-tester.exe		
 **Create test**
-1. Select Create tab
-1. Open console and change to the hifi_autotester_tests that has just been cloned
+1. Select Create tab (the default)
+1. Open a console and change directory to the hifi_autotester_tests that has just been cloned
 1. `cd tests`
 1. `dir /s /w *.png | find "File(s)"`
 		Verify total of 21 images (last line displayed)
@@ -79,6 +80,10 @@ Verify total of 29 images (8 images were added)
    Verify no error messages
    
 **Create auto**
+1. Click Create testAuto script button
+1. When prompted, click Cancel
+   Verify no error messages
+   
 1. `cd content\entity\light\point\create`
 1. `dir`
    Verify folder contains exactly 3 files
@@ -93,10 +98,6 @@ Verify total of 29 images (8 images were added)
    Verify "Could not find test.js" message
    Verify no file created in tests\content\entity\light\point folder
    
-1. Click Create testAuto button
-1. When prompted, click Cancel
-   Verify no error messages
-   
 **Create all auto**
 1. Change directory back up to the tests root folder
 1. `dir /s /w testAuto.js | find "File(s)"`
@@ -105,7 +106,7 @@ Verify total of 29 images (8 images were added)
 1. Click Create all testAuto scripts button
 1. When prompted, select the tests root folder
 1. `dir /s /w testAuto.js | find "File(s)"`
-   Verify total of 12 files
+   Verify total of 9 files
    
 1. Click Create all testAuto scripts button
 1. When prompted, click Cancel
@@ -126,15 +127,15 @@ Verify total of 29 images (8 images were added)
    Verify testRecursive.js script has been created in the tests\content\entity\light folder
    Verify this file is the same as the file **testRecursive2.js** in the hifi_autotester_tests folder
    
-1. Change directory back up to the tests root folder
-1. `dir /s /w testRecursive.js | find "File(s)"`
-   Verify total of 4 files
-  
 1. Click Create Recursive Script button
 1. When prompted, click Cancel
    Verify no error messages
    
 **Create all recursive tests**
+1. Change directory back up to the tests root folder
+1. `dir /s /w testRecursive.js | find "File(s)"`
+   Verify total of 4 files
+  
 1. Click Create all Recursive Scripts button
 1. When prompted, select the tests root folder
 1. `dir /s /w testRecursive.js | find "File(s)"`
