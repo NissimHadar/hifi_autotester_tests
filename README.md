@@ -16,6 +16,7 @@ This is a repository of tests and various files for the auto-tester.
    Verify auto-tester closes cleanly
    
 1. Run the auto-tester executable auto-tester.exe		
+## Create
 **Create test**
 1. Select Create tab (the default)
 1. Open a console and change directory to the hifi_autotester_tests that has just been cloned
@@ -146,6 +147,7 @@ Verify total of 29 images (8 images were added)
 1. Click Create all Recursive Scripts button
 1. When prompted, click Cancel
    Verify no error messages
+## Evaluate
 **Evaluate**
 1. Select the Evaluate tab in auto-tester
 3. Verify Interactive Mode check-box is selected (this is the default)
@@ -156,7 +158,7 @@ Verify total of 29 images (8 images were added)
 1. Click Evaluate Test
 2. When prompted for test images folder, select hifi_autotester_tests/testEvaluationImages_good
    Verify "All images are as expected message
-   Verify an empty zipped folder has been created (named TestResults--####-##-##_##-##-##.zip)
+   Verify an empty zipped folder has been created in hifi_autotester_tests/testEvaluationImages_good (named TestResults--####-##-##_##-##-##.zip)
    
 1. Click Evaluate Test
 2. When prompted for test images folder, select hifi_autotester_tests/testEvaluationImages_bad
@@ -177,17 +179,18 @@ Verify total of 29 images (8 images were added)
    
 1. Click "Fail"
    Verify "One or more images are not as expected" message
-   Verify a second zipped folder has been created.
+   Verify a second zipped folder has been created in hifi_autotester_tests/testEvaluationImages_bad
    Verify this folder has two sub-folders, one for each failure
    
 1. Clear "Interactive Mode" Check-box
 1. Click Evaluate Test
 2. When prompted for test images folder, select hifi_autotester_tests/testEvaluationImages_bad
    Verify "One or more images are not as expected" message
-   Verify a third zipped folder has been created.
+   Verify a third zipped folder has been created in hifi_autotester_tests/testEvaluationImages_bad
    Verify this folder has three sub-folders, one for each failure
    Verify that the content of the third folder is identical to the folder of the same name in the hifi_autotester_tests folder.
-**TestRail**
+## TestRail
+**Create Test Cases**
 1. Create a temporary folder for the following tests
 1. Select TestRail tab
 2. Select XML radio button (default is Python)
@@ -195,4 +198,64 @@ Verify total of 29 images (8 images were added)
 4. When prompted, select the tests root folder
    Verify a file named "TestRailSuite.xml" has been created
    Verify this file is identical to the file of the same name in the hifi_autotester_tests folder
-**Windows**
+   
+1. In a browser, go to <https://highfidelity.testrail.net/index.php?/suites/view/1311>
+2. Click the Import Cases icon![](./ImportCasesIcon.png)
+3. Select "Import from XML"
+4. Click "Choose File" and select the XML file just created
+5. Click Import
+   Verify that a test suite has been created (note the time tag in the section name).
+   The sections should match the folder layout in hifi_autotester_tests/tests
+6. Delete the XML file
+7. Select the Python radio button
+8. Click "Create Test Cases"
+9. When prompted, select the tests root folder
+10.  When prompted, select the temporary folder
+11. In the TestRail Run Selector Window, enter your TestRail user and password
+12. Change the TestRailSuite ID from 1312 to 1311
+13. Click "Accept"
+14. After the "TestRail Added fro Release" combo has been populated, click "OK"
+15. When prompted to run the script, click "Yes"
+16. Wait for the "Updating..." window to close
+17. Browse to <https://highfidelity.testrail.net/index.php?/suites/view/1311&group_by=cases:section_id&group_order=asc>
+    Verify a new main section has been added (note the time tag in the section name)
+    The sections should match the folder layout in hifi_autotester_tests/tests
+    
+**Create Run**
+1. Click "Create Run"
+2. When prompted, select the temporary folder
+3. In the TestRail Run Selector Window, enter your TestRail user and password
+4. Change the TestRailSuite ID from 1312 to 1311
+5. Click "Accept"
+   Verify that the "TestRail Sections" combo is populated with the sections previously created
+1. Click OK
+2.  When prompted to run the script, click "Yes"
+3. Wait for the "Updating..." window to close
+4. Browse to <https://highfidelity.testrail.net/index.php?/runs/overview/26>
+   Verify that a test run has been created.
+   Verify that it is 0% complete
+**Update Run results**
+1. Click "Update Run Results"
+2. When prompted, select the last zipped failure results folder, created in the Evaluation test (in  in hifi_autotester_tests/testEvaluationImages_bad)
+3. When prompted, select the temporary folder
+4. In the TestRail Run Selector Window, enter your TestRail user and password
+4. Change the TestRailSuite ID from 1312 to 1311
+5. Click "Accept"
+   Verify that the "TestRail Run" combo is populated with the sections previously created
+1. Select the last run that has been created (the run from the previous step)
+7. Click OK
+8.  When prompted to run the script, click "Yes"
+9. Wait for the "Updating..." window to close
+4. Browse to <https://highfidelity.testrail.net/index.php?/runs/overview/26> (if already open - refresh the page)
+   Verify that 6 tests have passed, 3 failed and none untested
+## Windows (only)
+1. Select the Windows tab
+2. Click "Hide Windows Taskbar"
+   Verify windows taskbar is hidden
+   
+1. Click "Show Windows Taskbar"
+   Verify windows taskbar is shown
+   
+1. Click "Hide Windows Taskbar"
+   Verify windows taskbar is hidden
+
