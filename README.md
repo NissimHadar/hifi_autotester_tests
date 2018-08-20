@@ -14,8 +14,8 @@ This is a repository of tests and various files for the auto-tester.
 	6.	Select Create tab
 		1.	Create test
 			1.  Open console and change to the hifi_autotester_tests that has just been cloned
-			2.	`cd tests`
-			3.	`dir /s /w *.png | find "File(s)"`
+			2.	__cd tests__
+			3.	__dir /s /w *.png | find "File(s)"__
 				Verify total of 21 images (last line displayed)
 			
 			4.	Click Create button
@@ -25,7 +25,7 @@ This is a repository of tests and various files for the auto-tester.
 				Verify total of 29 images (8 images were added)
 				
 		2.	Create test outline
-			1.	`dir`
+			1.	__dir__
 				Verify folder (the tests folder) contains just 2 subfolders (content and engine)
 				
 			2.	Click Create Tests Outline
@@ -34,8 +34,8 @@ This is a repository of tests and various files for the auto-tester.
 				Verify this file is the same as the file by the same name in the hifi_autotester_tests folder
 				
 		3.	Create MD
-			1.	`cd tests\content\entity\zone\zoneEffects`
-			2.	`dir`
+			1.	__cd tests\content\entity\zone\zoneEffects__
+			2.	__dir__
 				Verify folder contains exactly 6 files (test.js and ExpectedImage_00000.png through ExpectedImage_00005.png)
 				
 			3.	Click Create MD button
@@ -53,17 +53,17 @@ This is a repository of tests and various files for the auto-tester.
 			
 		4.	Create all MDs
 			1.	change directory back up to the tests root folder
-			2.	`dir /s /w *.md | find "File(s)"`
+			2.	__dir /s /w *.md | find "File(s)"__
 				Verify total of 5 files
 				
 			3.	Click Create all MD files
 			4.	When prompted, select the tests root folder
-			5.	`dir /s /w *.md | find "File(s)"`
+			5.	__dir /s /w *.md | find "File(s)"__
 				Verify total of 11 files
 		
 		5.	Create auto
-			1.	`cd content\entity\light\point\create`
-			2.	`dir`
+			1.	__cd content\entity\light\point\create__
+			2.	__dir__
 				Verify folder contains exactly 1 file (test.js)
 				
 			3.	Click Create testAuto button
