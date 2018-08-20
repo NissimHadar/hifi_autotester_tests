@@ -9,7 +9,7 @@ This is a repository of tests and various files for the auto-tester.
 	
 	4.	Run the auto-tester executable auto-tester.exe
 	5.	Select Help->About from the menu
-		Verify built on Aug 10 2018, 15:22:40
+		Verify built on Aug 18 2018, 15:42:27
 		
 	6.	Select Create tab
 		1.	Create test
