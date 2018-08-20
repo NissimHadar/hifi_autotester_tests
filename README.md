@@ -1,7 +1,7 @@
 # High Fidelity Auto-Tester Tests
 This is a repository of tests and various files for the auto-tester.
 
-Testing automatic tester
+## Testing automatic tester
 	1.	Clone the auto-tester tests repository - git clone https://github.com/NissimHadar/hifi_autotester_tests.git
 		
 	2.	Download installer from https://hifi-content.s3.amazonaws.com/nissim/autoTester/AutoTester-Installer.exe
