@@ -10,7 +10,7 @@ This is a repository of tests and various files for the auto-tester.
 	
 1. Run the auto-tester executable auto-tester.exe
 2. Select Help->About from the menu
-   Verify built on Aug 20 2018, 10:44:44
+   Verify built on Aug 20 2018, 14:37:10
    
 1. Click Close
    Verify auto-tester closes cleanly
@@ -154,7 +154,45 @@ Verify total of 29 images (8 images were added)
    Verify no error messages
    
 1. Click Evaluate Test
-2. When prompted for test images folder, select hifi_autotester_tests/testEvaluationImages
-   Verify "All images are asexpected message
+2. When prompted for test images folder, select hifi_autotester_tests/testEvaluationImages_good
+   Verify "All images are as expected message
+   Verify an empty zipped folder has been created (named TestResults--####-##-##_##-##-##.zip)
+   
+1. Click Evaluate Test
+2. When prompted for test images folder, select hifi_autotester_tests/testEvaluationImages_bad
+   Verify failure
+   
+3. Click "Abort current test"
+   Verify "One or more images are not as expected" message
+  
+1. Click Evaluate Test
+2. When prompted for test images folder, select hifi_autotester_tests/testEvaluationImages_bad
+   Verify failure
+   
+1. Click "Fail"
+   Verify second failure appears
+   
+1. Click "Pass"
+   Verify third failure appears
+   
+1. Click "Fail"
+   Verify "One or more images are not as expected" message
+   Verify a second zipped folder has been created.
+   Verify this folder has two sub-folders, one for each failure
+   
+1. Clear "Interactive Mode" Check-box
+1. Click Evaluate Test
+2. When prompted for test images folder, select hifi_autotester_tests/testEvaluationImages_bad
+   Verify "One or more images are not as expected" message
+   Verify a third zipped folder has been created.
+   Verify this folder has three sub-folders, one for each failure
+   Verify that the content of the third folder is identical to the folder of the same name in the hifi_autotester_tests folder.
 **TestRail**
+1. Create a temporary folder for the following tests
+1. Select TestRail tab
+2. Select XML radio button (default is Python)
+3. Click "Create Test Cases"
+4. When prompted, select the tests root folder
+   Verify a file named "TestRailSuite.xml" has been created
+   Verify this file is identical to the file of the same name in the hifi_autotester_tests folder
 **Windows**

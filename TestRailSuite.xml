@@ -1,0 +1,523 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sections>
+ <section>
+  <name>Test Suite - 2018-08-20T14:49</name>
+  <sections>
+   <section>
+    <name>content</name>
+    <sections>
+     <section>
+      <name>entity</name>
+      <sections>
+       <section>
+        <name>light</name>
+        <sections>
+         <section>
+          <name>point</name>
+          <sections>
+           <section>
+            <name>create</name>
+            <sections>
+             <section>
+              <name>all</name>
+              <cases>
+               <case>
+                <id/>
+                <title>content / entity / light / point / create</title>
+                <template>Test Case (Steps)</template>
+                <type>3 - Regression</type>
+                <priority>Medium</priority>
+                <estimate>60</estimate>
+                <references/>
+                <custom>
+                 <tester_count>1</tester_count>
+                 <domain_bot_load>
+                  <id>1</id>
+                  <value> Without Bots (hifiqa-rc / hifi-qa-stable / hifiqa-master)</value>
+                 </domain_bot_load>
+                 <automation_type>
+                  <id>0</id>
+                  <value>None</value>
+                 </automation_type>
+                 <added_to_release>
+                  <id>4</id>
+                  <value>master</value>
+                 </added_to_release>
+                 <preconds>Tester is in an empty region of a domain in which they have edit rights
+
+*Note: Press 'n' to advance test script</preconds>
+                 <steps_separated>
+                  <step>
+                   <index>1</index>
+                   <content>Execute instructions in [THIS TEST](https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md)</content>
+                   <expected>Refer to the expected result in the linked description.</expected>
+                  </step>
+                 </steps_separated>
+                 <notes>https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md</notes>
+                </custom>
+               </case>
+              </cases>
+             </section>
+            </sections>
+           </section>
+          </sections>
+         </section>
+         <section>
+          <name>spot</name>
+          <sections>
+           <section>
+            <name>create</name>
+            <sections>
+             <section>
+              <name>all</name>
+              <cases>
+               <case>
+                <id/>
+                <title>content / entity / light / spot / create</title>
+                <template>Test Case (Steps)</template>
+                <type>3 - Regression</type>
+                <priority>Medium</priority>
+                <estimate>60</estimate>
+                <references/>
+                <custom>
+                 <tester_count>1</tester_count>
+                 <domain_bot_load>
+                  <id>1</id>
+                  <value> Without Bots (hifiqa-rc / hifi-qa-stable / hifiqa-master)</value>
+                 </domain_bot_load>
+                 <automation_type>
+                  <id>0</id>
+                  <value>None</value>
+                 </automation_type>
+                 <added_to_release>
+                  <id>4</id>
+                  <value>master</value>
+                 </added_to_release>
+                 <preconds>Tester is in an empty region of a domain in which they have edit rights
+
+*Note: Press 'n' to advance test script</preconds>
+                 <steps_separated>
+                  <step>
+                   <index>1</index>
+                   <content>Execute instructions in [THIS TEST](https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md)</content>
+                   <expected>Refer to the expected result in the linked description.</expected>
+                  </step>
+                 </steps_separated>
+                 <notes>https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md</notes>
+                </custom>
+               </case>
+              </cases>
+             </section>
+            </sections>
+           </section>
+          </sections>
+         </section>
+        </sections>
+       </section>
+       <section>
+        <name>zone</name>
+        <sections>
+         <section>
+          <name>zoneEffects</name>
+          <sections>
+           <section>
+            <name>all</name>
+            <cases>
+             <case>
+              <id/>
+              <title>content / entity / zone / zoneEffects</title>
+              <template>Test Case (Steps)</template>
+              <type>3 - Regression</type>
+              <priority>Medium</priority>
+              <estimate>60</estimate>
+              <references/>
+              <custom>
+               <tester_count>1</tester_count>
+               <domain_bot_load>
+                <id>1</id>
+                <value> Without Bots (hifiqa-rc / hifi-qa-stable / hifiqa-master)</value>
+               </domain_bot_load>
+               <automation_type>
+                <id>0</id>
+                <value>None</value>
+               </automation_type>
+               <added_to_release>
+                <id>4</id>
+                <value>master</value>
+               </added_to_release>
+               <preconds>Tester is in an empty region of a domain in which they have edit rights
+
+*Note: Press 'n' to advance test script</preconds>
+               <steps_separated>
+                <step>
+                 <index>1</index>
+                 <content>Execute instructions in [THIS TEST](https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md)</content>
+                 <expected>Refer to the expected result in the linked description.</expected>
+                </step>
+               </steps_separated>
+               <notes>https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md</notes>
+              </custom>
+             </case>
+            </cases>
+           </section>
+          </sections>
+         </section>
+        </sections>
+       </section>
+      </sections>
+     </section>
+    </sections>
+   </section>
+   <section>
+    <name>engine</name>
+    <sections>
+     <section>
+      <name>controller</name>
+      <sections>
+       <section>
+        <name>keyEvent</name>
+        <sections>
+         <section>
+          <name>all</name>
+          <cases>
+           <case>
+            <id/>
+            <title>engine / controller / keyEvent</title>
+            <template>Test Case (Steps)</template>
+            <type>3 - Regression</type>
+            <priority>Medium</priority>
+            <estimate>60</estimate>
+            <references/>
+            <custom>
+             <tester_count>1</tester_count>
+             <domain_bot_load>
+              <id>1</id>
+              <value> Without Bots (hifiqa-rc / hifi-qa-stable / hifiqa-master)</value>
+             </domain_bot_load>
+             <automation_type>
+              <id>0</id>
+              <value>None</value>
+             </automation_type>
+             <added_to_release>
+              <id>4</id>
+              <value>master</value>
+             </added_to_release>
+             <preconds>Tester is in an empty region of a domain in which they have edit rights
+
+*Note: Press 'n' to advance test script</preconds>
+             <steps_separated>
+              <step>
+               <index>1</index>
+               <content>Execute instructions in [THIS TEST](https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md)</content>
+               <expected>Refer to the expected result in the linked description.</expected>
+              </step>
+             </steps_separated>
+             <notes>https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md</notes>
+            </custom>
+           </case>
+          </cases>
+         </section>
+        </sections>
+       </section>
+       <section>
+        <name>reticle</name>
+        <sections>
+         <section>
+          <name>all</name>
+          <cases>
+           <case>
+            <id/>
+            <title>engine / controller / reticle</title>
+            <template>Test Case (Steps)</template>
+            <type>3 - Regression</type>
+            <priority>Medium</priority>
+            <estimate>60</estimate>
+            <references/>
+            <custom>
+             <tester_count>1</tester_count>
+             <domain_bot_load>
+              <id>1</id>
+              <value> Without Bots (hifiqa-rc / hifi-qa-stable / hifiqa-master)</value>
+             </domain_bot_load>
+             <automation_type>
+              <id>0</id>
+              <value>None</value>
+             </automation_type>
+             <added_to_release>
+              <id>4</id>
+              <value>master</value>
+             </added_to_release>
+             <preconds>Tester is in an empty region of a domain in which they have edit rights
+
+*Note: Press 'n' to advance test script</preconds>
+             <steps_separated>
+              <step>
+               <index>1</index>
+               <content>Execute instructions in [THIS TEST](https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md)</content>
+               <expected>Refer to the expected result in the linked description.</expected>
+              </step>
+             </steps_separated>
+             <notes>https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md</notes>
+            </custom>
+           </case>
+          </cases>
+         </section>
+        </sections>
+       </section>
+      </sections>
+     </section>
+     <section>
+      <name>interaction</name>
+      <sections>
+       <section>
+        <name>pointer</name>
+        <sections>
+         <section>
+          <name>parabola</name>
+          <sections>
+           <section>
+            <name>enable</name>
+            <sections>
+             <section>
+              <name>all</name>
+              <cases>
+               <case>
+                <id/>
+                <title>engine / interaction / pointer / parabola / enable</title>
+                <template>Test Case (Steps)</template>
+                <type>3 - Regression</type>
+                <priority>Medium</priority>
+                <estimate>60</estimate>
+                <references/>
+                <custom>
+                 <tester_count>1</tester_count>
+                 <domain_bot_load>
+                  <id>1</id>
+                  <value> Without Bots (hifiqa-rc / hifi-qa-stable / hifiqa-master)</value>
+                 </domain_bot_load>
+                 <automation_type>
+                  <id>0</id>
+                  <value>None</value>
+                 </automation_type>
+                 <added_to_release>
+                  <id>4</id>
+                  <value>master</value>
+                 </added_to_release>
+                 <preconds>Tester is in an empty region of a domain in which they have edit rights
+
+*Note: Press 'n' to advance test script</preconds>
+                 <steps_separated>
+                  <step>
+                   <index>1</index>
+                   <content>Execute instructions in [THIS TEST](https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md)</content>
+                   <expected>Refer to the expected result in the linked description.</expected>
+                  </step>
+                 </steps_separated>
+                 <notes>https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md</notes>
+                </custom>
+               </case>
+              </cases>
+             </section>
+            </sections>
+           </section>
+           <section>
+            <name>ignore</name>
+            <sections>
+             <section>
+              <name>all</name>
+              <cases>
+               <case>
+                <id/>
+                <title>engine / interaction / pointer / parabola / ignore</title>
+                <template>Test Case (Steps)</template>
+                <type>3 - Regression</type>
+                <priority>Medium</priority>
+                <estimate>60</estimate>
+                <references/>
+                <custom>
+                 <tester_count>1</tester_count>
+                 <domain_bot_load>
+                  <id>1</id>
+                  <value> Without Bots (hifiqa-rc / hifi-qa-stable / hifiqa-master)</value>
+                 </domain_bot_load>
+                 <automation_type>
+                  <id>0</id>
+                  <value>None</value>
+                 </automation_type>
+                 <added_to_release>
+                  <id>4</id>
+                  <value>master</value>
+                 </added_to_release>
+                 <preconds>Tester is in an empty region of a domain in which they have edit rights
+
+*Note: Press 'n' to advance test script</preconds>
+                 <steps_separated>
+                  <step>
+                   <index>1</index>
+                   <content>Execute instructions in [THIS TEST](https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md)</content>
+                   <expected>Refer to the expected result in the linked description.</expected>
+                  </step>
+                 </steps_separated>
+                 <notes>https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md</notes>
+                </custom>
+               </case>
+              </cases>
+             </section>
+            </sections>
+           </section>
+          </sections>
+         </section>
+        </sections>
+       </section>
+      </sections>
+     </section>
+     <section>
+      <name>render</name>
+      <sections>
+       <section>
+        <name>material</name>
+        <sections>
+         <section>
+          <name>albedo</name>
+          <sections>
+           <section>
+            <name>all</name>
+            <cases>
+             <case>
+              <id/>
+              <title>engine / render / material / albedo</title>
+              <template>Test Case (Steps)</template>
+              <type>3 - Regression</type>
+              <priority>Medium</priority>
+              <estimate>60</estimate>
+              <references/>
+              <custom>
+               <tester_count>1</tester_count>
+               <domain_bot_load>
+                <id>1</id>
+                <value> Without Bots (hifiqa-rc / hifi-qa-stable / hifiqa-master)</value>
+               </domain_bot_load>
+               <automation_type>
+                <id>0</id>
+                <value>None</value>
+               </automation_type>
+               <added_to_release>
+                <id>4</id>
+                <value>master</value>
+               </added_to_release>
+               <preconds>Tester is in an empty region of a domain in which they have edit rights
+
+*Note: Press 'n' to advance test script</preconds>
+               <steps_separated>
+                <step>
+                 <index>1</index>
+                 <content>Execute instructions in [THIS TEST](https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md)</content>
+                 <expected>Refer to the expected result in the linked description.</expected>
+                </step>
+               </steps_separated>
+               <notes>https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md</notes>
+              </custom>
+             </case>
+            </cases>
+           </section>
+          </sections>
+         </section>
+         <section>
+          <name>opacity</name>
+          <sections>
+           <section>
+            <name>all</name>
+            <cases>
+             <case>
+              <id/>
+              <title>engine / render / material / opacity</title>
+              <template>Test Case (Steps)</template>
+              <type>3 - Regression</type>
+              <priority>Medium</priority>
+              <estimate>60</estimate>
+              <references/>
+              <custom>
+               <tester_count>1</tester_count>
+               <domain_bot_load>
+                <id>1</id>
+                <value> Without Bots (hifiqa-rc / hifi-qa-stable / hifiqa-master)</value>
+               </domain_bot_load>
+               <automation_type>
+                <id>0</id>
+                <value>None</value>
+               </automation_type>
+               <added_to_release>
+                <id>4</id>
+                <value>master</value>
+               </added_to_release>
+               <preconds>Tester is in an empty region of a domain in which they have edit rights
+
+*Note: Press 'n' to advance test script</preconds>
+               <steps_separated>
+                <step>
+                 <index>1</index>
+                 <content>Execute instructions in [THIS TEST](https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md)</content>
+                 <expected>Refer to the expected result in the linked description.</expected>
+                </step>
+               </steps_separated>
+               <notes>https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md</notes>
+              </custom>
+             </case>
+            </cases>
+           </section>
+          </sections>
+         </section>
+         <section>
+          <name>roughness_map</name>
+          <sections>
+           <section>
+            <name>all</name>
+            <cases>
+             <case>
+              <id/>
+              <title>engine / render / material / roughness_map</title>
+              <template>Test Case (Steps)</template>
+              <type>3 - Regression</type>
+              <priority>Medium</priority>
+              <estimate>60</estimate>
+              <references/>
+              <custom>
+               <tester_count>1</tester_count>
+               <domain_bot_load>
+                <id>1</id>
+                <value> Without Bots (hifiqa-rc / hifi-qa-stable / hifiqa-master)</value>
+               </domain_bot_load>
+               <automation_type>
+                <id>0</id>
+                <value>None</value>
+               </automation_type>
+               <added_to_release>
+                <id>4</id>
+                <value>master</value>
+               </added_to_release>
+               <preconds>Tester is in an empty region of a domain in which they have edit rights
+
+*Note: Press 'n' to advance test script</preconds>
+               <steps_separated>
+                <step>
+                 <index>1</index>
+                 <content>Execute instructions in [THIS TEST](https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md)</content>
+                 <expected>Refer to the expected result in the linked description.</expected>
+                </step>
+               </steps_separated>
+               <notes>https://github.com/highfidelity/hifi_tests/blob/master/tests/content/entity/light/point/create/test.md</notes>
+              </custom>
+             </case>
+            </cases>
+           </section>
+          </sections>
+         </section>
+        </sections>
+       </section>
+      </sections>
+     </section>
+    </sections>
+   </section>
+  </sections>
+ </section>
+</sections>

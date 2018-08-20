@@ -1,0 +1,4 @@
+Test failed in folder D:/GitHub/hifi_autotester_tests/testEvaluationImages _bad
+Expected image was    tests.content.entity.zone.zoneEffects.00003_EI.png
+Actual image was      tests.content.entity.zone.zoneEffects.00003.png
+Similarity _index was  0.935174
