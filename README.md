@@ -6,19 +6,22 @@ This is a repository of tests and various files for the auto-tester.
 1. Clone the auto-tester tests repository - git clone https://github.com/NissimHadar/hifi_autotester_tests.git
 		
 1. Download installer from https://hifi-content.s3.amazonaws.com/nissim/autoTester/AutoTester-Installer.exe
+If Windows message "Windows protected your PC" message appears, don't believe it.  Click "More info", then "Run anyway".
+
 1. Install auto-tester in a temporary folder
 	
 1. Run the auto-tester executable auto-tester.exe
 2. Select Help->About from the menu
    Verify built on Aug 20 2018, 14:37:10
+1. Click OK to close About window
    
-1. Click Close
+1. Click Close  
    Verify auto-tester closes cleanly
    
 1. Run the auto-tester executable auto-tester.exe		
 ## Create
 **Create test**
-1. Select Create tab (the default)
+1. Verify Create tab is the default
 1. Open a console and change directory to the hifi_autotester_tests that has just been cloned
 1. `cd tests`
 1. `dir /s /w *.png | find "File(s)"`
