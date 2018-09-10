@@ -10,7 +10,7 @@ This is a repository of tests and various files for the auto-tester.
 	
 1. Run the auto-tester executable auto-tester.exe
 2. Select Help->About from the menu
-   Verify built on Aug 20 2018, 14:37:10
+   Verify built on Sep 10 2018, 07:45:34
    
 1. Click Close
    Verify auto-tester closes cleanly
