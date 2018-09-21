@@ -5,24 +5,38 @@ This is a repository of tests and various files for the auto-tester.
 **General**
 1. Clone the auto-tester tests repository - git clone https://github.com/NissimHadar/hifi_autotester_tests.git
 		
-1. Download installer from https://hifi-content.s3.amazonaws.com/nissim/autoTester/AutoTester-Installer.exe
+1. Download installer from https://hifi-content.s3.amazonaws.com/nissim/autoTester/AutoTester-Installer-v4.4.exe
 If Windows message "Windows protected your PC" message appears, don't believe it.  Click "More info", then "Run anyway".
 
 1. Install auto-tester in a temporary folder
 	
 1. Run the auto-tester executable auto-tester.exe
 2. Select Help->About from the menu
-   Verify built on Sep 10 2018, 07:45:34
-   Verify built on Aug 20 2018, 14:37:10
+   Verify built on Sep 21 2018, 14:39:16
 1. Click OK to close About window
    
 1. Click Close  
    Verify auto-tester closes cleanly
    
 1. Run the auto-tester executable auto-tester.exe		
+## GitHub Fields
+**Default values**
+1. Verify GitHub User default is `highfidelity`
+1. Verify GitHub Branch default is `master`
+**Enabling**
+3. Verify `Create` tab is the default2. 
+4. Verify GitHub fields disabled
+5. Select Windows tab
+6. Verify GitHub fields disabled
+7. Select Run tab
+8. Verify GitHub fields enabled
+9. Select Evaluate tab
+10. Verify GitHub fields enabled
+11. Select TestRail tab
+12. Verify GitHub fields disabled
 ## Create
 **Create test**
-1. Verify Create tab is the default
+1. Select Create tab
 1. Open a console and change directory to the hifi_autotester_tests that has just been cloned
 1. `cd tests`
 1. `dir /s /w *.png | find "File(s)"`
@@ -151,6 +165,21 @@ Verify total of 29 images (8 images were added)
 1. Click Create all Recursive Scripts button
 1. When prompted, click Cancel
    Verify no error messages
+## Run
+1. Create an empty folder
+1. Verify Run Now button is disabled
+1. Click Select Working Folder and choose the folder just created
+   Verify Run button is now enabled
+3. Verify Server-less check-box is unchecked
+4. Verify Run latest check-box is checked
+4. Click Run Now and wait 30 minutes
+5. Verify the folder that was created now contains a file named `log.txt` (among others)
+   Verify that this (text) file contains 2 lines, similar to the following:
+```Tests started at 15:20, on Fri, Sep 21, 2018```
+```Tests completed at 15:43, on Fri, Sep 21, 2018; 6 failures```
+
+7. Verify the folder that was created now contains 2 Folders:  `High Fidelity` and `snapshots`
+8. Verify that the `snapshots` folder contains a single zip file, named `TestResults--####-##-##_##-##-##(####).zip`
 ## Evaluate
 **Evaluate**
 1. Select the Evaluate tab in auto-tester
