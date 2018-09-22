@@ -12,7 +12,7 @@ If Windows message "Windows protected your PC" message appears, don't believe it
 	
 1. Run the auto-tester executable auto-tester.exe
 2. Select Help->About from the menu
-   Verify built on Sep 21 2018, 14:39:16
+   Verify built on Sep 21 2018, 16:16:26
 1. Click OK to close About window
    
 1. Click Close  
