@@ -11,8 +11,9 @@ If Windows message "Windows protected your PC" message appears, don't believe it
 1. Install auto-tester in a temporary folder
 	
 1. Run the auto-tester executable auto-tester.exe
+1. Verify version 4.6 (shown in window title bar)
 2. Select Help->About from the menu
-   Verify built on Sep 21 2018, 16:16:26
+   Verify built Sep 30 2018, 17:11:39
 1. Click OK to close About window
    
 1. Click Close  
