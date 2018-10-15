@@ -5,14 +5,14 @@ This is a repository of tests and various files for the auto-tester.
 **General**
 1. Clone the auto-tester tests repository - git clone https://github.com/NissimHadar/hifi_autotester_tests.git
 		
-1. Download installer from https://hifi-content.s3.amazonaws.com/nissim/autoTester/AutoTester-Installer-v4.4.exe
+1. Download installer from https://hifi-content.s3.amazonaws.com/nissim/autoTester/AutoTester-Installer-v6.6.exe
 If Windows message "Windows protected your PC" message appears, don't believe it.  Click "More info", then "Run anyway".
 
 1. Install auto-tester in a temporary folder
 	
 1. Run the auto-tester executable auto-tester.exe
 2. Select Help->About from the menu
-   Verify built on Sep 21 2018, 16:16:26
+   Verify built on Oct 10 2018, 15:29:14
 1. Click OK to close About window
    
 1. Click Close  
@@ -24,7 +24,7 @@ If Windows message "Windows protected your PC" message appears, don't believe it
 1. Verify GitHub User default is `highfidelity`
 1. Verify GitHub Branch default is `master`
 **Enabling**
-3. Verify `Create` tab is the default2. 
+3. Verify `Create` tab is the default
 4. Verify GitHub fields disabled
 5. Select Windows tab
 6. Verify GitHub fields disabled
